@@ -1,0 +1,60 @@
+/* Integration du font HomeComing */
+@font-face {
+  font-family: HomeComing;
+  src: url(../Far-From\ Homecoming\ Updated.otf);
+}
+/* Style affecter a tous les elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+p {
+  font-family: Montserrat;
+}
+
+/* Styles pour navbar */
+.navbar {
+  background-color: #b11313;
+}
+nav a {
+  font-family: Montserrat;
+  color: #ffffff;
+}
+/* styles du footer */
+footer {
+  background-color: #000000;
+}
+footer p {
+  color: #ffffff;
+}
+footer li {
+  list-style-type: none;
+}
+.btn {
+  border-radius: 20px;
+  width: 160px;
+}
+
+.socialMd {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #b11313;
+}
+.socialMd img {
+  width: 100%;
+  padding-top: 55%;
+}
+.dropdown-toggle::after {
+  font-size: 14px;
+  margin-left: 5.4em;
+}
+footer li a {
+  font-size: 12px;
+  font-family: Montserrat;
+}
