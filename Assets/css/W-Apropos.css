@@ -1,60 +1,100 @@
 /* Integration du font HomeComing */
 @font-face {
-    font-family: HomeComing;
-    src: url(../Far-From\ Homecoming\ Updated.otf);
-  }
-  /* Style affecter a tous les elements */
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    box-sizing: border-box;
-  }
-  p {
-    font-family: Montserrat;
-  }
-  
-  /* Styles pour navbar */
-  .navbar {
-    background-color: #b11313;
-  }
-  nav a {
-    font-family: Montserrat;
-    color: #ffffff;
-  }
-  /* styles du footer */
+  font-family: HomeComing;
+  src: url(../Far-From\ Homecoming\ Updated.otf);
+}
+/* Style affecter a tous les elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+p {
+  font-family: Montserrat;
+}
+
+/* Styles pour navbar */
+.navbar {
+  background-color: #b11313;
+}
+nav a {
+  font-family: Montserrat;
+  color: #ffffff;
+}
+
+/* style du main */
+/* style dans section1 */
+#section1 {
+  background-color: #f1c530;
+}
+h1,
+h2 {
+  font-family: HomeComing;
+}
+#section1 .textes {
+  padding: 10% 0 10% 15%;
+}
+/* style dans section2 */
+#section2 {
+  background-color: #b11313;
+  padding: 5%;
+}
+#section2 input,
+#section2 textarea {
+  width: 400px;
+  background-color: #b11313;
+  color: #ffffff;
+}
+#section2 textarea {
+  height: 150px;
+}
+/* ---- */
+#section3 {
+  background-color: #114c92;
+}
+#section3 .textes {
+  text-align: justify;
+  color: #ffffff;
+}
+#section3 .list-unstyled {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+/* styles du footer */
 footer {
-    background-color: #000000;
-  }
-  footer p {
-    color: #ffffff;
-  }
-  footer li {
-    list-style-type: none;
-  }
-  .btn {
-    border-radius: 20px;
-    width: 160px;
-  }
-  
-  .socialMd {
-    width: 40px;
-    height: 40px;
-    color: #ffffff;
-    margin-right: 10px;
-    border-radius: 50%;
-    background-color: #b11313;
-  }
-  .socialMd img {
-    width: 100%;
-    padding-top: 55%;
-  }
-  .dropdown-toggle::after {
-    font-size: 14px;
-    margin-left: 5.4em;
-  }
-  footer li a {
-    font-size: 12px;
-    font-family: Montserrat;
-  }
+  background-color: #000000;
+}
+footer p {
+  color: #ffffff;
+}
+footer li {
+  list-style-type: none;
+}
+.btn {
+  border-radius: 20px;
+  width: 160px;
+}
+
+.socialMd {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #b11313;
+}
+.socialMd img {
+  width: 100%;
+  padding-top: 55%;
+}
+.dropdown-toggle::after {
+  font-size: 14px;
+  margin-left: 5.4em;
+}
+footer li a {
+  font-size: 12px;
+  font-family: Montserrat;
+}
