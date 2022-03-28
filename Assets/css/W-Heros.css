@@ -1,60 +1,162 @@
 /* Integration du font HomeComing */
 @font-face {
-    font-family: HomeComing;
-    src: url(../Far-From\ Homecoming\ Updated.otf);
-  }
-  /* Style affecter a tous les elements */
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    box-sizing: border-box;
-  }
-  p {
-    font-family: Montserrat;
-  }
-  
-  /* Styles pour navbar */
-  .navbar {
-    background-color: #b11313;
-  }
-  nav a {
-    font-family: Montserrat;
-    color: #ffffff;
-  }
-  /* styles du footer */
+  font-family: HomeComing;
+  src: url(../Far-From\ Homecoming\ Updated.otf);
+}
+/* Style affecter a tous les elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+p {
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/* Styles pour navbar */
+.navbar,
+#section4 {
+  background-color: #114c92;
+}
+nav a {
+  font-family: Montserrat;
+  color: #ffffff;
+}
+/* styles du main */
+#section1 {
+  background-image: url(../Illustration/img19.png);
+  background-size: cover;
+  background-position: center;
+}
+.texteSection1 {
+  padding: 15%;
+}
+#section2 {
+  background-color: #114c92;
+  padding: 5%;
+  text-align: justify;
+}
+.video {
+  transform: translateY(100px);
+}
+#section3 {
+  background-image: url(../Illustration/img20.png);
+  background-size: cover;
+  background-position: center;
+  padding: 5%;
+}
+.texteSection3 {
+  padding: 10%;
+}
+.imageSuperpose {
+  width: 60%;
+}
+#duo {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#solo {
+  position: relative;
+  left: 50%;
+  transform: translateY(-115px);
+  z-index: 100;
+}
+#imageBas3 {
+  margin-left: 175px;
+  margin-top: -60px;
+}
+#section4 {
+  padding: 5%;
+}
+#section5part1 {
+  background-color: #b11313;
+}
+#avengers {
+  background-image: url(../Illustration/img32.png);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section5 img {
+  width: 200px;
+}
+#section5 p {
+  text-align: justify;
+}
+#section6 {
+  background-image: url(../Illustration/img33.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section6child {
+  background-color: #114b92ab;
+  margin-right: 150px;
+}
+/* styles du footer */
 footer {
-    background-color: #000000;
+  background-color: #000000;
+}
+footer p {
+  color: #ffffff;
+}
+footer li {
+  list-style-type: none;
+}
+.btn {
+  border-radius: 20px;
+  width: 160px;
+}
+
+.socialMd {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #114c92;
+}
+.socialMd img {
+  width: 100%;
+  padding-top: 55%;
+}
+.dropdown-toggle::after {
+  font-size: 14px;
+  margin-left: 5.4em;
+  color: #000000;
+}
+footer li a {
+  font-size: 12px;
+  font-family: Montserrat;
+}
+#boutonFooter {
+  background-color: #114c92;
+}
+@media (max-width: 500px) {
+  .video {
+    width: 450px;
   }
-  footer p {
-    color: #ffffff;
+}
+@media {
+  .video {
+    width: 450px;
   }
-  footer li {
-    list-style-type: none;
+}
+@media {
+  .video {
+    width: 500px;
   }
-  .btn {
-    border-radius: 20px;
-    width: 160px;
+}
+@media (max-width: 768px) {
+  .video {
+    transform: none;
   }
-  
-  .socialMd {
-    width: 40px;
-    height: 40px;
-    color: #ffffff;
-    margin-right: 10px;
-    border-radius: 50%;
-    background-color: #b11313;
-  }
-  .socialMd img {
-    width: 100%;
-    padding-top: 55%;
-  }
-  .dropdown-toggle::after {
-    font-size: 14px;
-    margin-left: 5.4em;
-  }
-  footer li a {
-    font-size: 12px;
-    font-family: Montserrat;
-  }
+}
