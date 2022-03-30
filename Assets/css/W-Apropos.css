@@ -38,14 +38,15 @@ h2 {
 }
 /* style dans section2 */
 #section2 {
-  background-color: #b11313;
   padding: 5%;
+  background-color: #b11313;
 }
 #section2 input,
 #section2 textarea {
   width: 400px;
-  background-color: #b11313;
   color: #ffffff;
+  border-radius: 15px;
+  background-color: #b11313;
 }
 #section2 textarea {
   height: 150px;
@@ -59,8 +60,8 @@ h2 {
   color: #ffffff;
 }
 #section3 .list-unstyled {
-  border: 1px solid #ffffff;
   border-radius: 10px;
+  border: 1px solid #ffffff;
 }
 
 /* styles du footer */

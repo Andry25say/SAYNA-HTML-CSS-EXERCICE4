@@ -44,6 +44,9 @@ h1 {
 #section1 p {
   font-weight: bold;
 }
+.card-body {
+  color: #ffffff;
+}
 /* style section2 */
 #section2,
 .card {
