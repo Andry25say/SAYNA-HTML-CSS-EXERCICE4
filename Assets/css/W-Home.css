@@ -116,14 +116,3 @@ footer li a {
   font-size: 12px;
   font-family: Montserrat;
 }
-@media (max-width: 768px) {
-  .card {
-    width: 400px;
-    margin: 0 auto;
-  }
-  .navbar {
-    background-color: #b1131300;
-    position: fixed;
-    margin-bottom: 20px;
-  }
-}
