@@ -64,7 +64,9 @@ footer li {
   border-radius: 20px;
   width: 160px;
 }
-
+footer .btn {
+  background-color: #f1c530;
+}
 .socialMd {
   width: 40px;
   height: 40px;
