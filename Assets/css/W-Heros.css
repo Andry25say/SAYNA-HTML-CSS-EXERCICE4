@@ -1,9 +1,9 @@
-/* Integration du font HomeComing */
+/*-------------Integration du font HomeComing------------------*/
 @font-face {
   font-family: HomeComing;
   src: url(../Far-From\ Homecoming\ Updated.otf);
 }
-/* Style affecter a tous les elements */
+/*------------------Style affecter a tous les elements---------*/
 * {
   margin: 0;
   padding: 0;
@@ -12,16 +12,16 @@ body {
   box-sizing: border-box;
 }
 p {
-  font-family: Montserrat;
   font-size: 12px;
   color: #ffffff;
+  font-family: Montserrat;
 }
 h1,
 h2 {
   font-family: HomeComing;
   text-transform: uppercase;
 }
-/* Styles pour navbar */
+/*---------------Styles pour navbar----------------------------*/
 .navbar,
 #section4 {
   background-color: #114c92;
@@ -30,28 +30,28 @@ nav a {
   font-family: Montserrat;
   color: #ffffff;
 }
-/* styles du main */
+/*-----------------styles du main----------------------------*/
 #section1 {
-  background-image: url(../Illustration/img19.png);
   background-size: cover;
   background-position: center;
+  background-image: url(../Illustration/img19.png);
 }
 .texteSection1 {
   padding: 15%;
 }
 #section2 {
-  background-color: #114c92;
   padding: 5%;
   text-align: justify;
+  background-color: #114c92;
 }
 .video {
   transform: translateY(100px);
 }
 #section3 {
-  background-image: url(../Illustration/img20.png);
+  padding: 5%;
   background-size: cover;
   background-position: center;
-  padding: 5%;
+  background-image: url(../Illustration/img20.png);
 }
 .texteSection3 {
   padding: 10%;
@@ -60,16 +60,16 @@ nav a {
   width: 60%;
 }
 #duo {
-  position: relative;
   top: 0;
   left: 0;
   z-index: 1;
+  position: relative;
 }
 #solo {
-  position: relative;
   left: 50%;
-  transform: translateY(-115px);
   z-index: 100;
+  position: relative;
+  transform: translateY(-115px);
 }
 .Stacy {
   width: 240px;
@@ -84,11 +84,11 @@ nav a {
   background-color: #b11313;
 }
 #avengers {
-  background-image: url(../Illustration/img32.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../Illustration/img32.png);
 }
 .image1 {
   width: 220px;
@@ -120,8 +120,8 @@ footer li {
   list-style-type: none;
 }
 .btn {
-  border-radius: 20px;
   width: 160px;
+  border-radius: 20px;
 }
 
 .socialMd {
@@ -138,19 +138,20 @@ footer li {
 }
 .dropdown-toggle::after {
   font-size: 14px;
-  margin-left: 5.4em;
   color: #000000;
+  margin-left: 5.4em;
 }
 footer li a {
   font-size: 12px;
   font-family: Montserrat;
 }
 #boutonFooter {
-  background-color: #114c92;
   width: 100%;
+  background-color: #114c92;
 }
-/*----------------- Version mobile-------------------- */
+/* ---------les medias queries------------------------ */
 
+/*----------------- Version mobile-------------------- */
 @media (max-width: 768px) {
   .video {
     width: 450px;
@@ -167,15 +168,13 @@ footer li a {
   .imageNonSuperposee {
     display: block;
   }
-}
-@media (max-width: 768px) {
   .troisFillesMB {
     width: 135px;
     text-align: center;
     margin-right: 15px;
   }
 }
-
+/*----------------- Version desktop-------------------- */
 @media (min-width: 769px) {
   .imageSuperpose {
     display: block;
@@ -184,4 +183,3 @@ footer li a {
     display: none;
   }
 }
-
