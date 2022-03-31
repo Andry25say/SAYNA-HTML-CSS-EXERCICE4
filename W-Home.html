@@ -32,29 +32,14 @@
   </head>
   <body>
      <!---------------------------Debut du header------------------------->
-     <nav class="navbar navbar-expand-lg navbar-dark">
+     <nav class="navbar navbar-expand-lg navbar-dark d-none d-md-block ">
       <div class="container">
-        <a class="navbar-brand" href="W-Bonus.html">
+        <a class="navbar-brand " href="W-Bonus.html">
           <img src="Assets/Logo/logo1.png" alt="" class="me-4" />
           <img src="Assets/Logo/logo2.png" alt="" class="me-4" />
           <img src="Assets/Logo/logo3.png" alt="" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-        <span class="fa-solid fa-ellipsis text-light"> </span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav mb-2 mb-lg-0 d-none d-md-flex">
+          <ul class="navbar-nav mb-2 mb-lg-0 d-md-flex">
             <li class="nav-item">
               <a class="nav-link active" href="W-Home.html">Acceuil</a>
             </li>
@@ -69,8 +54,13 @@
             </li>
           </ul>
         </div>
-      </div>
     </nav>
+    <!------------------------- version mobile---------------------- -->
+    <a class="navbar-brand  d-block d-md-none mobileHeader" href="W-Bonus.html">
+      <img src="Assets/Logo/logo1.png" alt="" class="me-4" />
+      <img src="Assets/Logo/logo2.png" alt="" class="me-4" />
+      <img src="Assets/Logo/logo3.png" alt="" />
+    </a>
     <!---------------------------------Fin du header------------------------ -->
 
     <!--------------------------------debut du main----------------------------->
@@ -78,7 +68,7 @@
       <!----------------------------debut de la section1------------------------>
       <section id="section1">
         <div class="row">
-          <h1 class="display-1 mb-4">Spiderman</h1>
+          <h1 class="display-1 py-5 py-md-0 5mb-4">Spiderman</h1>
           <div class="d-inlineblock  mb-4">
             <button class="btn btn-light text-danger">Voir les Héros</button>
             <button class="btn btn-outline-light">Voir les adversaires</button>
@@ -258,6 +248,7 @@
       <div class="row mb-2 text-center">
         <!----------------------------------------dernier partie copyright----------------------------->
         <p>&copy;SaynaxMarvel.Inc.2022.We love our users!</p>
+        <audio controls src="Assets/audio1.mp3" class="w-25 pb-4 mx-auto"></audio>
       </div>
       </footer>
   </body>
