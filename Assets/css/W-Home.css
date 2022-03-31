@@ -1,21 +1,22 @@
-/* Integration du font HomeComing */
+/* -------------------Integration du font HomeComing----------------- */
 @font-face {
   font-family: HomeComing;
   src: url(../Far-From\ Homecoming\ Updated.otf);
 }
-/* Style affecter a tous les elements */
+/* ---------------Style affecter a tous les elements --------------*/
 * {
   margin: 0;
   padding: 0;
 }
 body {
+  overflow-x: hidden;
   box-sizing: border-box;
 }
 p {
   font-family: Montserrat;
 }
 
-/* Styles pour navbar */
+/*------------------------- Styles pour navbar------------------- */
 .navbar {
   background-color: #b11313;
 }
@@ -24,22 +25,23 @@ nav a,
 #section2 p,
 #section3 p,
 h2 {
-  font-family: Montserrat;
   color: #ffffff;
+  font-family: Montserrat;
 }
-/* ----debut style main------------- */
-/* section1 */
+/* -------------------debut style main-------------------------- */
+
+/* -------------------section1----------------------------------*/
 #section1 {
-  background-image: url(../Illustration/img1.png);
+  padding: 18% 10%;
   background-size: cover;
   background-position: center;
-  padding: 18% 10%;
+  background-image: url(../Illustration/img1.png);
 }
 h1 {
-  font-family: HomeComing;
   color: #ffffff;
-  text-transform: uppercase;
   margin-bottom: 100px;
+  font-family: HomeComing;
+  text-transform: uppercase;
 }
 #section1 p {
   font-weight: bold;
@@ -47,7 +49,7 @@ h1 {
 .card-body {
   color: #ffffff;
 }
-/* style section2 */
+/* -------------------style section2-------------------------- */
 #section2,
 .card {
   background-color: #b11313;
@@ -57,12 +59,12 @@ h2 {
   text-transform: uppercase;
 }
 .capucheNoire {
-  background-image: url(../Illustration/img6.png);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(../Illustration/img6.png);
 }
-/* section3 */
+/*-------------------------------- section3--------------------- */
 #section3 {
   background-color: #114c92;
 }
@@ -74,7 +76,7 @@ h2 {
 #section3 .formulaires {
   padding-top: 150px;
 }
-/* section4 */
+/*------------------------ section4-----------------------------*/
 #section4 {
   background-color: #b11313;
 }
@@ -82,7 +84,7 @@ h2 {
   padding: 10%;
 }
 
-/* styles du footer */
+/*--------------------------- styles du footer ------------------*/
 footer {
   background-color: #000000;
 }

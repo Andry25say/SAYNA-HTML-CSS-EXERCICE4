@@ -1,31 +1,33 @@
-/* Integration du font HomeComing */
+/* -------------Integration du font HomeComing---------------- */
 @font-face {
   font-family: HomeComing;
   src: url(../Far-From\ Homecoming\ Updated.otf);
 }
-/* Style affecter a tous les elements */
+/* -------------Style affecter a tous les elements------------- */
 * {
   margin: 0;
   padding: 0;
 }
 body {
+  overflow-x: hidden;
   box-sizing: border-box;
 }
 p {
   font-family: Montserrat;
 }
 
-/* Styles pour navbar */
+/*----------------- Styles pour navbar----------------------- */
 .navbar {
   background-color: #b11313;
 }
 nav a {
-  font-family: Montserrat;
   color: #ffffff;
+  font-family: Montserrat;
 }
 
-/* style du main */
-/* style dans section1 */
+/*---------------------------- style du main---------------- */
+
+/* ----------------style dans section1---------------------- */
 #section1 {
   background-color: #f1c530;
 }
@@ -36,7 +38,7 @@ h2 {
 #section1 .textes {
   padding: 10% 0 10% 15%;
 }
-/* style dans section2 */
+/*-------------------- style dans section2----------------- */
 #section2 {
   padding: 5%;
   background-color: #b11313;
@@ -51,20 +53,20 @@ h2 {
 #section2 textarea {
   height: 150px;
 }
-/* ---- */
+/*----------------------style de la section3-------------- */
 #section3 {
   background-color: #114c92;
 }
 #section3 .textes {
-  text-align: justify;
   color: #ffffff;
+  text-align: justify;
 }
 #section3 .list-unstyled {
   border-radius: 10px;
   border: 1px solid #ffffff;
 }
 
-/* styles du footer */
+/*------------------------ styles du footer---------------- */
 footer {
   background-color: #000000;
 }
@@ -75,8 +77,8 @@ footer li {
   list-style-type: none;
 }
 .btn {
-  border-radius: 20px;
   width: 160px;
+  border-radius: 20px;
 }
 footer .btn {
   background-color: #b11313;
