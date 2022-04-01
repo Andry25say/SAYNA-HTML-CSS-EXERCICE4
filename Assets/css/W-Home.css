@@ -56,9 +56,16 @@ h1 {
 }
 /* -------------------style section2-------------------------- */
 #section2,
-.card {
+.card,
+.card-footer {
   background-color: #b11313;
 }
+.card,
+.card-footer {
+  border: none;
+  width: 250px;
+}
+
 h2 {
   font-family: HomeComing;
   text-transform: uppercase;
